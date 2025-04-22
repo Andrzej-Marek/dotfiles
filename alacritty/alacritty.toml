@@ -1,4 +1,6 @@
-general.import = ["./themes/dracula.toml"]
+import = [
+  "~/dotfiles/alacritty/themes/dracula.toml"
+]
 
 [env]
 TERM = "xterm-256color"
