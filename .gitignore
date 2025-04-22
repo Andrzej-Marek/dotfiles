@@ -1,0 +1,23 @@
+# System/OS specific
+.DS_Store
+*.swp
+*.swo
+*.swn
+Thumbs.db
+
+# SSH or sensitive keys
+*.pem
+*.key
+*.crt
+*.gpg
+.ssh/
+.gnupg/
+
+# Local state
+.zsh_history
+.zsh_sessions
+.tmux/resurrect/
+.tmux/plugins/tpm/.git/
+
+# Mac-specific
+Library/
