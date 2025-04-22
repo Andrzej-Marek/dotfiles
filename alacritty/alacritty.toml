@@ -1,4 +1,4 @@
-import = ["~/.config/alacritty/themes/dracula.toml"]
+import = ["./themes/dracula.toml"]
 
 [env]
 TERM = "xterm-256color"
