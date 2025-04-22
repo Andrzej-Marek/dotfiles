@@ -3,6 +3,9 @@
 echo "Linking zsh..."
 ln -sf "$HOME/dotfiles/zsh/.zshrc" "$HOME/.zshrc"
 
+echo "Linking p10k..."
+ln -sf "$HOME/dotfiles/zsh/.p10k.zsh" "$HOME/.p10k.zsh"
+
 echo "Linking oh my zsh..."
 ln -sf "$HOME/dotfiles/oh-my-zsh" "$HOME/.oh-my-zsh"
 
@@ -17,6 +20,6 @@ echo "Linking tmux..."
 ln -sf "$HOME/dotfiles/tmux/.tmux.conf" "$HOME/.tmux.conf"
 
 echo "Linking alacritty..."
-ln -sf "$HOME/dotfiles/alacritty/alacritty.yml" "$HOME/.config/alacritty/alacritty.yml"
+ln -sf "$HOME/dotfiles/alacritty/alacritty.toml" "$HOME/.config/alacritty/alacritty.toml"
 
 echo "✅ Done! Reload your terminal or source the configs."
