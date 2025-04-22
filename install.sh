@@ -20,6 +20,7 @@ echo "Linking tmux..."
 ln -sf "$HOME/dotfiles/tmux/.tmux.conf" "$HOME/.tmux.conf"
 
 echo "Linking alacritty..."
+mkdir -p ~/.config/alacritty
 ln -sf "$HOME/dotfiles/alacritty/alacritty.toml" "$HOME/.config/alacritty/alacritty.toml"
 
 echo "✅ Done! Reload your terminal or source the configs."
