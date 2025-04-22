@@ -3,8 +3,8 @@
 echo "Linking zsh..."
 ln -sf "$HOME/dotfiles/zsh/.zshrc" "$HOME/.zshrc"
 
-echo "Linking zsh..."
-ln -sf "$HOME/dotfiles/oh-my-zsh " "$HOME/.oh-my-zsh"
+echo "Linking oh my zsh..."
+ln -sf "$HOME/dotfiles/oh-my-zsh" "$HOME/.oh-my-zsh"
 
 echo "Linking nvim..."
 mkdir -p "$HOME/.config"
