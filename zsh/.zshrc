@@ -11,6 +11,8 @@ export VISUAL='nvim'
 export DOTFILES="$HOME/dotfiles"
 export ZSH="$DOTFILES/oh-my-zsh"
 export ZSH_THEME="powerlevel10k/powerlevel10k"
+export FZF_BASE="/opt/homebrew/opt/fzf"
+
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 # Plugins
