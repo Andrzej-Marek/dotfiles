@@ -17,7 +17,8 @@ echo "Linking git..."
 ln -sf "$HOME/dotfiles/git/.gitconfig" "$HOME/.gitconfig"
 
 echo "Linking tmux..."
-ln -sf "$HOME/dotfiles/tmux/.tmux.conf" "$HOME/.tmux.conf"
+ln -sf "$HOME/dotfiles/tmux/.oh-my-tmux/.tmux.conf" "$HOME/.tmux.conf"
+ln -sf "$HOME/dotfiles/tmux/.tmux.conf.local" "$HOME/.tmux.conf.local"
 
 echo "Linking alacritty..."
 mkdir -p ~/.config/alacritty
